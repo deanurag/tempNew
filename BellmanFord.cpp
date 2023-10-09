@@ -14,5 +14,7 @@ vector<int> bellman_ford(int V, vector<vector<int>> & edge, int S){
     }
 }
 int main(){
-
+    vector<vector<int>> & edge;
+    bellman_ford(3,edge,9);
+    return 0;
 }
